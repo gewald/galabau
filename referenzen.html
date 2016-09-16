@@ -1,0 +1,155 @@
+<script>
+    function changeRef(id) {
+
+        if (id == 0) {
+            $("#referenzen").load('referenzen/wasser_im_garten.html');
+        } else if (id == 1) {
+            $("#referenzen").load('referenzen/plaetze_und_wege.html');
+        } else if (id == 2) {
+            $("#referenzen").load('referenzen/mauer.html');
+        } else if (id == 3) {
+            $("#referenzen").load('referenzen/treppen.html');
+        } else if (id == 4) {
+            $("#referenzen").load('referenzen/weinkeller.html');
+        } else if (id == 5) {
+            $("#referenzen").load('referenzen/rasen.html');
+        } else if (id == 6) {
+            $("#referenzen").load('referenzen/pflanzen_und_pflege.html');
+        } else if (id == 7) {
+            $("#referenzen").load('referenzen/zaeune.html');
+        } else if (id == 8) {
+            $("#referenzen").load('referenzen/terassen.html');
+        }
+    }
+</script>
+
+<div class="referenzen-left">
+
+    <p><a onclick="changeContent(3);">Referenzen</a></p>
+
+    <ul>
+        <div class="ref-link hvr-shrink">
+            <li>
+                <a onclick="changeRef(0);">Wasser im Garten</a>
+            </li>
+        </div>
+        <div class="ref-link hvr-shrink">
+            <li>
+                <a onclick="changeRef(1);">Plätze und Wege</a>
+            </li>
+        </div>
+        <div class="ref-link hvr-shrink">
+            <li>
+                <a onclick="changeRef(2);">Mauerarbeiten</a>
+            </li>
+        </div>
+        <div class="ref-link hvr-shrink">
+            <li>
+                <a onclick="changeRef(3);">Treppen</a>
+            </li>
+        </div>
+        <div class="ref-link hvr-shrink">
+            <li class="hvr-shrink">
+                <a onclick="changeRef(4);">Weinkeller</a>
+            </li>
+        </div>
+        <div class="ref-link hvr-shrink">
+            <li>
+                <a onclick="changeRef(5);">Fertigrasen / Rollrasen</a>
+            </li>
+        </div>
+        <div class="ref-link hvr-shrink">
+            <li>
+                <a onclick="changeRef(6);">Pflanzen und Pflege</a>
+            </li>
+        </div>
+        <div class="ref-link hvr-shrink">
+            <li>
+                <a onclick="changeRef(7);">Zäune und Sichtschutz</a>
+            </li>
+        </div>
+        <div class="ref-link hvr-shrink">
+            <li>
+                <a onclick="changeRef(8);">Terrassen</a>
+            </li>
+        </div>
+    </ul>
+
+</div>
+
+<div id="referenzen" class="referenzen-pics">
+
+    <div class="row">
+        <ul>
+            <div class="ref-row">
+                <li><a href="referenzen/img/wasser/quellstein_1_murr-messe_g.jpg" data-lightbox="referenzen"><img
+                        src="referenzen/img/wasser/quellstein_1_murr-messe_k.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/wasser/mauer_wasser_1_g.jpg" data-lightbox="referenzen"><img src="referenzen/img/wasser/mauer_wasser_1_k.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/weinkeller/weinkeller_gesamt_g.png" data-lightbox="referenzen"><img src="referenzen/img/weinkeller/weinkeller_gesamt_k.png"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/mauer/mauer_3_g.jpg" data-lightbox="referenzen"><img src="referenzen/img/mauer/mauer_3_k.jpg"/></a></li>
+            </div>
+        </ul>
+    </div>
+
+    <div class="row">
+        <ul>
+            <div class="ref-row">
+                <li><a href="referenzen/img/wasser/teich_1_g.jpg" data-lightbox="referenzen"><img src="referenzen/img/wasser/teich_1_k.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/wasser/g3.jpg" data-lightbox="referenzen"><img src="referenzen/img/wasser/g33.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/wasser/karpfen_1_g.jpg" data-lightbox="referenzen"><img src="referenzen/img/wasser/karpfen_1_k.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/mauer/mauer_1_g.jpg" data-lightbox="referenzen"><img src="referenzen/img/mauer/mauer_1_k.jpg"/></a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="row">
+        <ul>
+            <div class="ref-row">
+                <li><a href="referenzen/img/zaeune_und_sichtschutz/sichtschutz_1_gr.jpg" data-lightbox="referenzen"><img src="referenzen/img/zaeune_und_sichtschutz/sichtschutz_1_kl.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/pflanzen_und_pflege/rodung_3_g.jpg" data-lightbox="referenzen"><img
+                        src="referenzen/img/pflanzen_und_pflege/rodung_3_k.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/pflanzen_und_pflege/rodung_1.jpg" data-lightbox="referenzen"><img src="referenzen/img/pflanzen_und_pflege/rodung_11.jpg"/></a>
+                </li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/wasser/seerose_2_g.jpg" data-lightbox="referenzen"><img src="referenzen/img/wasser/seerose_2_k.jpg"/></a></li>
+            </div>
+
+        </ul>
+    </div>
+    <div class="row">
+        <ul>
+            <div class="ref-row">
+                <li><a href="referenzen/img/zaeune_und_sichtschutz/sichtschutz_2_gr.jpg" data-lightbox="referenzen"><img src="referenzen/img/zaeune_und_sichtschutz/sichtschutz_2_kl.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/terassen/terasse_gr_4.jpg" data-lightbox="referenzen"><img src="referenzen/img/terassen/terasse_kl_4.jpg"/></a>
+                </li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/plaetze_und_wege/weg_terrasse_1_gr.jpg" data-lightbox="referenzen"><img src="referenzen/img/plaetze_und_wege/weg_terrasse_1_kl.jpg"/></a></li>
+            </div>
+            <div class="ref-row">
+                <li><a href="referenzen/img/zaeune_und_sichtschutz/sichtschutz_3_gr.jpg" data-lightbox="referenzen"><img src="referenzen/img/zaeune_und_sichtschutz/sichtschutz_3_kl.jpg"/></a></li>
+            </div>
+        </ul>
+    </div>
+
+</div>
+
+<div class="clear"></div>
