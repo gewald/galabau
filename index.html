@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8" />
+
+    <title>Klaus Waldmann Garten- und Landschaftsbau | Murr</title>
+
+    <META NAME="KEYWORDS" CONTENT="Waldmann, Klaus Waldmann, waldmann galabau, waldmann gartenbau, Waldmann Galabau, Waldmann Gartenbau, Murr, Garten, Landschaftsbau, Gartenpflege, Gartengestaltung, Pflanzen und Pflege, Mauerarbeiten, Treppen, Fertigrasen, Rollrasen, Terassen, Sichtschutz, Zäune, Wasser im Garten">
+    <META NAME="audience" CONTENT="Alle">
+    <META NAME="allow-search" CONTENT="YES">
+    <META NAME="DESCRIPTION" CONTENT="Ihr Experte im grünen Bereich in Murr für Garten, Landschaftsbau, Gartenpflege, Gartengestaltung, Pflanzen und Pflege, Mauerarbeiten, Treppen, Fertigrasen, Rollrasen, Terassen, Sichtschutz, Zäune, Wasser im Garten">
+    <META NAME="CLASSIFICATION" CONTENT="Mode">
+    <META NAME="DISTRIBUTION" CONTENT="Alle">
+    <META NAME="PAGE-TOPIC" CONTENT="Gartenbau">
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    <META NAME="REVISIT-AFTER" CONTENT="21 days">
+    <META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="de">
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/jqFancyTransitions.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/hover.css"/>
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-71144904-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script>
+        function changeContent(id) {
+            if (id == 0) {
+                $("#pageContent").load('home.html');
+            } else if (id == 1) {
+                $("#pageContent").load('kontakt.html');
+            } else if (id == 2) {
+                $("#pageContent").load('impressum.html');
+            } else if (id == 3) {
+                $("#pageContent").load('referenzen.html');
+            }
+        }
+
+        function blink_an() {
+            if (document.getElementById) {
+                document.getElementById("neueste").style.visibility = "visible";
+            }
+        }
+        function blink_aus() {
+            if (document.getElementById) {
+                document.getElementById("neueste").style.visibility = "hidden";
+            }
+        }
+        window.onload = function() {
+            for (var i=1; i < 50; i++) {
+                setTimeout("blink_aus()", (1900*i));
+                setTimeout("blink_an()", (1900*i)+300);
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+<div id="pageWrap" class="page-wrap">
+
+    <div class="nav-and-content">
+
+        <div class="header">
+
+            <div class="logo">
+                <a onclick="changeContent(0);">
+                    <img src="images/Logo_ohne.png" alt="Klaus Waldmann Garten- und Landschaftsbau"/>
+                </a>
+
+            </div>
+
+            <div class="nav_first_elem hvr-shrink">
+                <ul>
+                    <li><a onclick="changeContent(0);">Start</a></li>
+                </ul>
+            </div>
+
+            <div class="navigation hvr-shrink">
+                <ul>
+                    <li><a onclick="changeContent(3);">Referenzen</a></li>
+                </ul>
+
+            </div>
+
+            <div class="navigation hvr-shrink">
+                <ul>
+                    <li><a onclick="changeContent(1);">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="navigation hvr-shrink">
+                <ul>
+                    <li><a onclick="changeContent(2);">Impressum</a></li>
+                </ul>
+            </div>
+
+            <div class="ideen">
+                <img src="images/Ideen_2.png" alt="DZone"/>
+            </div>
+
+        </div>
+
+        <div class="garten">
+            <p>Garten- und Landschaftsbau</p>
+        </div>
+
+        <div id="pageContent" class="slightshow-content">
+
+            <div class="index-left" id="slideshow">
+                <img src="images/slightshow/quellstein_messe_murr.jpg" alt="Messe Murr"/>
+                <img src="images/slightshow/dahlem_1.jpg" alt="Bluete"/>
+                <img src="images/slightshow/wasser_1.jpg" alt="Wasser"/>
+                <img src="images/slightshow/treppe.jpg" alt="Treppe"/>
+                <img src="images/slightshow/seerosen_1.jpg" alt="Seerosen"/>
+            </div>
+
+            <script type="text/javascript">
+                $('#slideshow').jqFancyTransitions({ width: 249, height: 340, delay: 5000, effect:
+                        'fountainAlternate', direction: 'top', stripDelay: 180, strips: 10, titleOpacity: 0.0,
+                    position: 'alternate'});
+            </script>
+
+
+            <div class="index-heading">
+                <p>Herzlich Willkommen bei <br>
+                    Klaus Waldmann Garten- und Landschaftsbau</p>
+            </div>
+            <div class="index-main">
+
+                <div class="clear"></div>
+                <p>
+                    Ich begrüße Sie auf der Internet-Seite von Klaus Waldmann Garten- und Landschaftsbau, Ihrem Experten
+                    "im grünen Bereich".
+                    <br><br>
+                    Mit unseren innovativen und zeitgemäßen Ideen gestalten wir Gartenanlagen von Privat- und
+                    Geschäftskunden neu.
+                    <br/><br/>
+                    Auf den folgenden Seiten können Sie sich ein Bild von unserer Firma und ihren Referenzen
+                    machen.
+                    <br><br>
+                    Gerne beraten wir Sie kostenlos und unverbindlich.
+                    <br><br>
+                    Ihr Team Klaus Waldmann Garten- und Landschaftsbau.
+                </p>
+
+                <div class="clear"></div>
+            </div>
+
+            <div class="clear"></div>
+
+            <br>
+            <div class="news">
+                <strong>
+                    Akuelles: Wir suchen ab sofort einen gelernten Landschaftsgärtner (m/w) oder qualifizierte Fachkraft (m/w).<br>
+                    Bei Fragen zur ausgeschriebenen Stelle kontaktieren Sie uns bitte. Wir freuen uns auf Ihre schriftliche
+                    oder telefonische Bewerbung.
+                </strong>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Klaus Waldmann Garten- und Landschaftsbau | Beethovenstr. 58 | D - 71711 Murr | Telefon 07144 - 83 84 85 |
+            info@waldmann-galabau.de
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
